@@ -1,0 +1,40 @@
+{
+  "name": "koishi-plugin-chatsun",
+  "description": "暂时还没写文档,大概只有我自己会用吧,或许点开github主页会有?",
+  "version": "0.0.1",
+  "contributors": [
+    "mcxhwl <3090607562@qq.com>"
+  ],
+  "main": "lib/index.js",
+  "homepage": "https://github.com/muchunxue/koishi-mcx-chatsun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alice/koishi-plugin-chatsun.git"
+  },
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "chat",
+    "ai",
+    "sun",
+    "langchain"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.2.18",
+    "@langchain/core": "^0.2.32",
+    "@langchain/google-vertexai": "^0.0.27",
+    "@langchain/openai": "^0.2.11",
+    "langchain": "^0.2.18",
+    "@langchain/textsplitters": "0.1.0"
+  }
+}
